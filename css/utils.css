@@ -1,0 +1,9 @@
+.flex-text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-ar-one-sans{
+    font-family: 'AR One Sans', sans-serif;
+}
