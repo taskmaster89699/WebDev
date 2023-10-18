@@ -41,13 +41,18 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    color: blue;
+    font-size: large;
+}
+
 .logo {
     display: flex;
     align-items: center;
 }
 
 .logo img{
-    padding: 0 25px;
+    padding: 0 15px;
     height: 8vh;
 }
 
