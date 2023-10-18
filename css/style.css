@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script&family=Mohave:wght@300&family=Montserrat:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script&family=Mohave:wght@300&family=Montserrat:wght@100&display=swap');
 
 :root {
     --main-bg-color: #fff1;
@@ -17,10 +16,12 @@ body {
 header {
     background-color: var(--main-bg-color);
     border: 1vh solid rgb(238, 230, 230);
-    height: 8vh;
+    height: 10vh;
+    display: flex;
 }
 nav{
     display: flex;
+    align-items: center;
 }
 nav ul {
     display: flex;
@@ -58,13 +59,14 @@ nav ul li a {
 
 .search{
     width: 100%;
+    flex-shrink: 0;
     position: relative;
     display: flex;
     align-items: center;
 }
 
 .searchTerm{
-    width: 80%;
+    width: 100%;
     border: 3px solid rgb(238, 230, 230);
     border-right: none;
     padding: 5px;
@@ -89,3 +91,11 @@ nav ul li a {
     font-size: 20px;
   }
 
+footer{
+    height:8vh;
+    background-color:#878787 ;
+}
+
+.container{
+    min-height: 80vh;
+}
