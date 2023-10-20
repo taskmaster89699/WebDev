@@ -7,3 +7,9 @@
 .font-ar-one-sans{
     font-family: 'AR One Sans', sans-serif;
 }
+
+.flexdisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
