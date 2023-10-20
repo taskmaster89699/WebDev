@@ -15,13 +15,15 @@ body {
 
 header {
     background-color: var(--main-bg-color);
-    border: 1vh solid rgb(238, 230, 230);
+    border: 2vh solid rgb(238, 230, 230);
     height: 10vh;
     display: flex;
+    position: relative;
 }
 
 nav {
     display: flex;
+    width: 10vw;
     align-items: center;
 }
 
@@ -58,14 +60,13 @@ nav ul li a:hover {
     height: 8vh;
 }
 
-.cart i {
-    position: absolute;
-    right: 2vw;
-    top: 4vh;
+.cart img {
+    transform: translateX(15vw);
+
 }
 
 .search {
-    width: 80%;
+    width: 35vw;
     flex-shrink: 0;
     position: relative;
     display: flex;
@@ -73,7 +74,7 @@ nav ul li a:hover {
 }
 
 .searchTerm {
-    width: 80%;
+    width: 35vw;
     border: 3px solid rgb(238, 230, 230);
     border-right: none;
     padding:  5px;
@@ -102,7 +103,7 @@ nav ul li a:hover {
     width: 50px;
     height: 30px;
     font-weight: bold;
-    transform: translateX(30px);
+    transform: translateX(8vw);
     background-color: #3580f0;
     color: white;
     outline: none;
@@ -115,13 +116,17 @@ nav ul li a:hover {
 footer {
     height: 8vh;
     background-color: #878787;
+    border-left: 2vh solid rgb(238, 230, 230);
+    border-right: 2vh solid rgb(238, 230, 230);
+
 }
 
 .container{
     min-height: 80vh;
     max-width: 100vw;
     justify-content: center;
-    border-bottom: 1 vh solid rgb(238, 230, 230);
+    border-left: 2vh solid rgb(238, 230, 230);
+    border-right: 2vh solid rgb(238, 230, 230);
 }
 
 .slider1{
@@ -130,12 +135,17 @@ footer {
     margin: auto;
     width: 75vw;
     padding: 15px 0;
+    overflow: hidden;
 }
 
 .card{
+    padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
     font-size: 12px;
+    border-top: 1vh solid rgb(238, 230, 230);
+    border-bottom: 1vh solid rgb(238, 230, 230);
+    
 }
 
 .list{
@@ -144,3 +154,4 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
